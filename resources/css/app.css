@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand-blue{
+    background-color: #5329FF;
+}
+
+.menu-itm{
+    color: rgba(16, 9, 55, 0.3);
+}
