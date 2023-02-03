@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard.home');
 });
 
 Route::get('/shipments', function () {
@@ -52,6 +52,10 @@ Route::get('/add-vehicles', function () {
 
 Route::get('/dashboard-profile', function () {
     return view('dashboard.dashboard-profile');
+});
+
+Route::get('/dashboard-admin', function () {
+    return view('dashboard.dashboard-admin');
 });
 
 Route::get('/dashboard', function () {
