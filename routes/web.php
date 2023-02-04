@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -54,9 +55,7 @@ Route::get('/dashboard-profile', function () {
     return view('dashboard.dashboard-profile');
 });
 
-Route::get('/dashboard-admin', function () {
-    return view('dashboard.dashboard-admin');
-});
+Route::get('/shipment-create', [CustomerController::class, 'shipmentCreate'])->name('shipment-create');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

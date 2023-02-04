@@ -18,6 +18,8 @@
             </div>
 
             <div class="">
+
+
                 <form class="w-full min-w-max">
                     <div class="w-full mb-6">
                         <label class="block tracking-wide text-[#ACB5BB] text-xs font-bold mb-2" for="grid-first-name">Add Employee Name</label>
@@ -79,7 +81,7 @@
                         <div class="relative">
                           <select class="appearance-none block w-full text-black placeholder:text-black border border-[#DCE4E8] py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white text-sm" id="grid-state">
                             <option>Delivered</option>
-                            <option>Delivered</option>
+                            <option>Cancled</option>
                             <option>Delivered</option>
                           </select>
                         </div>
